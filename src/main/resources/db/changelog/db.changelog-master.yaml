@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet id="1" author="denis":
+      include:
+    file: /db/changelog/changes/create-pet.sql
+  - changeSet id="2" author="denis":
+      include:
+    file: /db/changelog/changes/insert-pet.sql

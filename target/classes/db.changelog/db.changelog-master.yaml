@@ -1,7 +1,0 @@
-databaseChangeLog:
-  - changeSet denis:
-      include:
-    file: db.changelog/changes/create-pet.sql
-  - changeSet denis:
-      include:
-    file: db.changelog/changes/create-user.sql

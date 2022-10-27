@@ -22,7 +22,6 @@ public class Main {
         session.getTransaction().commit();
         session.close();
 
-
         Session session1 = sessionFactory.openSession();
         session1.beginTransaction();
         //session1.merge(denis);
